@@ -87,7 +87,7 @@ export const deletarVeiculoController = async (req: Request, res: Response) => {
         return res.status(404).send({error: "Veiculo não encontrado"})
     }
 
-    return res.status(200)
+    return res.status(200).send()
 }
 
 export const deletarVeiculoService = (uuid) => {

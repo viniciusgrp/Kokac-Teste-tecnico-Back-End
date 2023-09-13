@@ -4,6 +4,8 @@ Esse é o back end do desafio técnico para a vaga de Desenvolvedor Full Stack d
 
 Para executar basta clonar o repositório para sua máquina e instalar as dependências digitando yarn no terminal e depois utilizar o comando yarn dev
 
+Para teste local das rotas ser facilitado o repositório possui um arquivo para importação no software insomnia
+
 Sobre os desafios:
 
 1- Números palíndromos são aqueles que escritos da direita para esquerda ou da esquerda para

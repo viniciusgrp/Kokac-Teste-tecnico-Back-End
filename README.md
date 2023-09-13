@@ -170,3 +170,13 @@ Necessário enviar os campos que serão modificados no body, por exemplo:
     "modelo": "Impreza"
 }
 
+Exemplo de retorno:
+
+{
+	"tipo": "carro",
+	"modelo": "Impreza",
+	"anoFabricacao": 2018,
+	"quantidadePortas": 4,
+	"marca": "Subaru",
+	"uuid": "47d52d29-5283-4ad3-b64b-b1a9367f129d"
+}

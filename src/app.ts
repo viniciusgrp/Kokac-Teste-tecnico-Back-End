@@ -1,5 +1,5 @@
 import express from "express";
-import { palindromesService } from "./services/palindromos";
+import { palindromesController } from "./services/palindromos";
 import { caixaService } from "./services/caixa";
 import { criarVeiculoController, deletarVeiculoController, getVeiculoService, getVeiculosController, patchVeiculoService } from "./services/veiculo";
 import cors from 'cors'
@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 app.use(cors({origin: "*"}))
 
-app.post("/palindromo", palindromesService);
+app.post("/palindromo", palindromesController);
 app.post("/caixa", caixaService);
 app.post("/veiculos", criarVeiculoController);
 app.delete("/veiculos/:uuid", deletarVeiculoController);

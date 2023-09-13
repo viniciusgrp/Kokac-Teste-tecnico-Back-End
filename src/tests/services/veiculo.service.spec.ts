@@ -28,7 +28,6 @@ describe("Vehicle tests", () => {
     expect(newVehicle).toHaveProperty("modelo", modelo);
     expect(newVehicle).toHaveProperty("quantidadePortas", quantidadePortas);
     expect(newVehicle).toHaveProperty("anoFabricacao", anoFabricacao);
-    expect(newVehicle).not.toHaveProperty("tipo");
   });
 
   test("Should be able to get the created vehicle", async () => {

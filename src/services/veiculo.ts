@@ -128,4 +128,6 @@ export const patchVeiculoService = (uuid, body) => {
     }
 
     veiculos[index] = novoVeiculo
+
+    return novoVeiculo
 }

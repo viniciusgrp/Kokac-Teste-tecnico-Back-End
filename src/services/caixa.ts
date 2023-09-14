@@ -1,4 +1,6 @@
-export const caixaService = (req, res) => {
+import { Request, Response } from "express";
+
+export const caixaService = (req: Request, res: Response) => {
   const valorPago = req.body.valorPago;
   const totalCompra = req.body.totalCompra;
   let valorTroco = valorPago - totalCompra;
@@ -8,7 +10,7 @@ export const caixaService = (req, res) => {
     }
 
   const notas = [100, 10, 1];
-  const response = {};
+  const response: any = {};
 
 
   for (let nota of notas) {

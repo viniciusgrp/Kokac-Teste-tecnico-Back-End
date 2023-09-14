@@ -1,0 +1,8 @@
+{
+  "tipo": "carro",
+  "modelo": "Gol",
+  "anoFabricacao": 2000,
+  "quantidadePortas": 2,
+  "marca": "Volkswagen",
+  "uuid": "3fa86a51-b1da-4627-a787-74a0edb61e67"
+}

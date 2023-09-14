@@ -1,0 +1,9 @@
+{
+  "tipo": "moto",
+  "modelo": "Logan",
+  "anoFabricacao": 2018,
+  "quantidadePortas": 0,
+  "marca": "Renault",
+  "uuid": "cfe71395-8940-4a63-8f65-b04f953980db",
+  "rodas": 2
+}
